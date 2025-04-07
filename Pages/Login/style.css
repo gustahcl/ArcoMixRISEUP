@@ -1,122 +1,146 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
 
 body {
+    position: relative;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background: #1B4998;
+    height: 100vh;
+    margin: auto;
+    background: rgb(9,37,85);
+    background: linear-gradient(90deg, rgba(9,37,85,1) 20%, rgba(26,71,148,1) 60%);
 }
 
 .box {
-    background-color: #fff;
-    border-radius: 24px;
-    width: 61.56rem;
-    height: 42.25rem;
-}
-
-.box h1 {
-    text-align: center;
-    color: #E92435;
-    padding: 10px;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #fff;
-    font-size: 2.5rem;
-    text-shadow: 0px 3px 10px #535353;
-}
-
-.logoBox {
+    color: white;
     display: flex;
-    justify-self: center;
-    width: 250px;
-    height: 175px;
-    margin-top: 5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    background: #A0C8ED30;
+    border-radius: 32px;
+    margin-right: 40%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 }
 
-.logo {
-    width: 250px;
-    height: 175px;
-    object-fit: none;
+.sideBox {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+.sideBox img {
+    width: 800px;
+    height: 100%;
+    object-fit: contain;
+}
+
+.formBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5)
 }
 
 form {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-}
-
-form input {
-    width: 19.43rem;
-    padding: 10px;
-    margin: 10px 0;
-    font-size: 1.2rem;
-    border: 2px solid #E92435;
-    border-radius: 8px;
-    box-shadow: 0px 3px 10px #535353;;
-}
-
-input:focus {
-    outline: none;
-    border: 2px solid #FAE928;;
+    width: 100%;
+    padding: 20px;
 }
 
 .input-container {
-    position: relative;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    width: 60%;
 }
 
-.input-container input {
+span {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5)
+}
+
+input {
     width: 100%;
-    padding: 10px 10px 10px 35px;
-    font-size: 16px;
-}
-
-.input-container .icon {
-    position: absolute;
-    left: 10px;
-    font-size: 18px;
-    color: #1B4998;
+    height: 60px;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 16px;
+    background-color: #BFC3CD52;
+    color: white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 }
 
 .link-container {
     display: flex;
     justify-content: space-between;
-    width: 15.5rem;
+    width: 100%;
+    margin-top: 20px;
 }
 
-form p {
-    color: #1B4998;
-    font-size: 0.7rem;
-    margin: 10px 0;
-    text-shadow: 0px 3px 10px #535353;
-}
-
-form a {
-    color: #1B4998;
-    font-size: 0.7rem;
-    text-decoration: none;
-    margin: 10px 0;
+a {
+    color: white;
     font-weight: bold;
+    font-size: 1rem;
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5)
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    margin-top: 20px;
 }
 
 button {
-    width: 15.688rem;
-    padding: 10px;
-    margin: 10px 0;
-    font-size: 1.2rem;
-    border: 2px solid #fff;
-    background-color: #E92435;
-    color: #fff;
+    width: 100%;
+    height: 50px;
     font-weight: bold;
+    background-color: #1B4998;
+    color: white;
+    border: none;
     border-radius: 16px;
-    box-shadow: 0px 3px 10px #535353;
     cursor: pointer;
+    font-size: 1.2rem;
+    margin-bottom: 100px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 }
 
-
+button:hover {
+    background-color: #143670;
+    transition: 0.3s;
+}
+button:active {
+    background-color: #005eff;
+    transition: 0.3s;
+}
