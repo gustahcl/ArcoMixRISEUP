@@ -83,7 +83,7 @@ button.logout {
 
 div.box {
     width: 60%;
-    background-color: #1b3e7bc2;
+    background-color: rgba(27, 61, 121, 0.7);
     margin-left: 20%;
     color: white;
     border-radius: 24px;
