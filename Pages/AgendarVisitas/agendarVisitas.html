@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+    <title>Agendar Visita</title>
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <img src="../../Assets/arcomixLogo.svg" alt="Logo Arco-Mix">
+        </div>
+        <div class="user-info">
+            <p><a href="">Boa tarde, Gabriel</a></p>
+        </div>
+        <ul>
+            <div class="menu-item">
+                <li><a href="">Dados Pessoais</a></li>
+            </div>
+            <div class="menu-item">
+                <li><a href="">Visitas</a></li>
+            </div>
+            <div class="menu-item">
+                <li><a href="">Comprovante De Visita</a></li>
+            </div>
+            <div class="menu-item">
+                <li><a href="">Notificações</a></li>
+            </div>
+            <div class="menu-item">
+                <li><a href="">Emissão de Identificação</a></li>
+            </div>
+            <div class="menu-item">
+                <li><a href="">Segurança e Privacidade</a></li>
+            </div>
+            <div class="menu-item">
+                <li><a href="">Fale Conosco</a></li>
+            </div>
+        </ul>
+        <button class="logout">Sair</button>
+    </div>
+    <div class="box">
+        <h1>AGENDAR VISITA</h1>
+        <div class="content">
+            <div class="calendar">
+                <div class="mini-header">
+                    <div class="sub">
+                        <ul>
+                            <li>
+                                <p><span class="square available"></span>Disponível</p>
+                            </li>
+                            <li>
+                                <p><span class="square unavailable"></span>Indisponível</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2>Maio de 2025</h2>
+                    </div>
+                    <div class="nav">
+                        <a href="">
+                            < </a>
+                                <a href="">
+                                    >
+                                </a>
+                    </div>
+                </div>
+                <div class="days">
+                    <div class="day">
+                        <p>SEG.</p>
+                        <button class="available">08:00</button>
+                        <button class="unavailable">08:45</button>
+                        <button class="unavailable">09:30</button>
+                        <button class="unavailable">10:15</button>
+                        <button class="unavailable">11:00</button>
+                    </div>
+                    <div class="day">
+                        <p>TER.</p>
+                        <button class="unavailable">08:00</button>
+                        <button class="unavailable">08:45</button>
+                        <button class="unavailable">09:30</button>
+                        <button class="available">10:15</button>
+                        <button class="unavailable">11:00</button>
+                    </div>
+                    <div class="day">
+                        <p>QUA.</p>
+                        <button class="unavailable">08:00</button>
+                        <button class="available">08:45</button>
+                        <button class="unavailable">09:30</button>
+                        <button class="unavailable">10:15</button>
+                        <button class="available">11:00</button>
+                    </div>
+                    <div class="day">
+                        <p>QUI.</p>
+                        <button class="available">08:00</button>
+                        <button class="unavailable">08:45</button>
+                        <button class="unavailable">09:30</button>
+                        <button class="unavailable">10:15</button>
+                        <button class="unavailable">11:00</button>
+                    </div>
+                    <div class="day">
+                        <p>SEX.</p>
+                        <button class="unavailable">08:00</button>
+                        <button class="unavailable">08:45</button>
+                        <button class="available">09:30</button>
+                        <button class="available">10:15</button>
+                        <button class="unavailable">11:00</button>
+                    </div>
+                </div>
+            </div>
+            <div class="company-info">
+                <h2>Dados da Empresa</h2>
+                <div class="form-box">
+                    <form>
+                        <p for="razao-social">Razão Social:</p>
+                        <input type="text" id="razao-social" value="">
+                        <p for="cnpj">CNPJ:</p>
+                        <input type="text" id="cnpj" value="">
+                        <p for="representante">Nome do Representante:</p>
+                        <input type="text" id="representante" value="">
+                        <button class="submit" type="submit">Confirmar Agendamento</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
