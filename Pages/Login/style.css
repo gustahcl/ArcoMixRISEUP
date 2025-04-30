@@ -7,6 +7,10 @@
 }
 
 body {
+    background-image: linear-gradient(to right, #000000a8 50%, transparent 100%), url(../../Assets/background_image.jpeg);
+    background-size: 1920px 1080px;
+    background-position: center;
+    background-repeat: no-repeat;
     position: relative;
     overflow: hidden;
     display: flex;
@@ -14,8 +18,6 @@ body {
     align-items: center;
     height: 100vh;
     margin: auto;
-    background: rgb(9,37,85);
-    background: linear-gradient(90deg, rgba(9,37,85,1) 20%, rgba(26,71,148,1) 60%);
 }
 
 .box {
@@ -25,10 +27,11 @@ body {
     justify-content: center;
     align-items: center;
     width: 40%;
-    background: #A0C8ED30;
+    background: rgba(255, 255, 255, 0.2);
     border-radius: 32px;
     margin-right: 40%;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    border: 4px solid white;
 }
 
 .sideBox {
@@ -60,7 +63,7 @@ body {
 
 h1 {
     font-size: 3rem;
-    margin-top: 50px;
+    margin-top: 70px;
     margin-bottom: 20px;
     text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5)
 }
@@ -80,6 +83,10 @@ form {
     width: 60%;
 }
 
+.input-container p {
+    margin-bottom: 30px;
+}
+
 span {
     font-size: 1rem;
     font-weight: bold;
@@ -88,7 +95,7 @@ span {
     text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5)
 }
 
-input {
+input[type="text"] {
     width: 100%;
     height: 60px;
     padding: 10px;
@@ -98,11 +105,54 @@ input {
     background-color: #BFC3CD52;
     color: white;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    border: 3px solid white;
+}
+
+input[type="text"]::placeholder {
+    color: hsla(0, 0%, 100%, 0.85);
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
+}
+
+div.radio-container {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    padding: 30px;
+}
+
+input[type="radio"] {
+    appearance: none; /* Remove o estilo padrão do rádio */
+    width: 40px;
+    height: 40px;
+    border: 4px solid white;
+    border-radius: 50%; /* Deixa o botão circular */
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+input[type="radio"]:checked {
+    background-color: #32EB21; /* Cor verde quando marcado */
+}
+
+label.radio-group {
+    display: flex;
+    align-items: center; /* Alinha o texto verticalmente ao centro do rádio */
+    gap: 10px; /* Espaço entre o botão de rádio e o texto */
+}
+
+label.radio-group span {
+    font-size: 1rem;
+    font-style: italic;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
+    margin-right: 10px; /* Espaço entre o texto e o botão */
 }
 
 .link-container {
-    display: flex;
-    justify-content: space-between;
+    display: inline-block;
+    text-align: center;
     width: 100%;
     margin-top: 20px;
 }
@@ -111,7 +161,12 @@ a {
     color: white;
     font-weight: bold;
     font-size: 1rem;
-    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5)
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
+}
+
+a:hover {
+    text-decoration: underline red;
+    transition: 1s;
 }
 
 .button-container {
@@ -119,28 +174,29 @@ a {
     justify-content: center;
     align-items: center;
     width: 55%;
-    margin-top: 20px;
 }
 
 button {
     width: 100%;
-    height: 50px;
+    height: 60px;
     font-weight: bold;
-    background-color: #1B4998;
+    background-color: #97989A;
     color: white;
     border: none;
     border-radius: 16px;
     cursor: pointer;
-    font-size: 1.2rem;
-    margin-bottom: 100px;
+    margin-top: 20px;
+    font-size: 1.6rem;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    border: 3px solid white;
 }
 
 button:hover {
-    background-color: #143670;
+    background-color: #3e3f3f;
     transition: 0.3s;
 }
+
 button:active {
-    background-color: #005eff;
+    background-color: #c2c2c4;
     transition: 0.3s;
 }

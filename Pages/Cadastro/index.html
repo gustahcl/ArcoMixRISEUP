@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <title>Arcomix</title>
+</head>
+
+<body>
+
+
+
+    <div class="box">
+
+        <h1>CADASTRO</h1>
+
+        <div class="formBox">
+
+            <div class="avatar-container">
+                <div class="avatar">
+                    <img class="avatar" src="../../Assets/avatar.jpg" alt="">
+                </div>
+                <a href="">Insira uma foto</a>
+            </div>
+
+            <form action="">
+
+                <div class="input-container">
+
+                    <div>
+                        <span>Nome completo:</span>
+                        <input type="text" placeholder="" required>
+                    </div>
+
+                    <div>
+                        <span>Tipo de visitante:</span>
+                        <select name="tipo" id="tipo" required>
+                            <option value="" disabled selected>Selecionar</option>
+                            <option value="comercial">Representante Comercial</option>
+                            <option value="fornecedor">Fornecedor</option>
+                            <option value="manutencao">Manutenção</option>
+                            <option value="treinamento">Equipe de Treinamento</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <span>CPF ou RG:</span>
+                        <input type="text" placeholder="" required>
+                    </div>
+
+                    <div>
+                        <span>Telefone:</span>
+                        <input type=tel" placeholder="" required>
+                    </div>
+
+                    <div>
+                        <span>Empresa:</span>
+                        <input type="text" placeholder="" required>
+                    </div>
+
+                    <div>
+                        <span>Senha:</span>
+                        <input required></input>
+                    </div>
+
+                    <div>
+                        <span>E-mail:</span>
+                        <input required></input>
+                    </div>
+
+                    <div>
+                        <span>Confirmação de Senha:</span>
+                        <input required></input>
+                    </div>
+
+                </div>
+
+                <div class="button-container">
+                    <button type="submit">Enviar token de confirmação</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
