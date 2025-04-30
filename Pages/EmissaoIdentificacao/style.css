@@ -38,6 +38,20 @@ div.logo {
     height: 150px;
 }
 
+.logo2 {
+    width: 60px;  
+    height: auto;  
+    margin-bottom: 5px; 
+    margin-top: 10px;
+}
+
+.logo3 {
+    width: 120px;   
+    height: auto;  
+    margin-bottom: 5px; 
+    margin-bottom: 30px;
+}
+
 img {
     width: 100%;
     height: 100%;
@@ -106,24 +120,24 @@ div.content {
 }
 
 div.avatar {
-    max-width: 200px;
-    max-height: 200px;
-    width: auto;
-    height: auto;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     overflow: hidden;
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-bottom: 200px;
-    border: 4px solid white;
+    margin-top: 30px;
+    margin-bottom: 2px;
+    border: 4px solid #032D76;
 }
 
 div.div {
-    width: 50%;
+    width: 500px;
+    height: 120px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     justify-items: center;
+    margin-top: 50px;
+    margin-bottom: 0;
 }
 
 div.info {
@@ -133,28 +147,25 @@ div.info {
     justify-content: center;
     text-align: center;
     background-color: #032D76;
-    padding: 20px;
+    padding: 5px;
     border-radius: 24px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin-bottom: 10px;
-    border: 2px solid white;
 }
 
 button.details {
-    width: 40%;
+    width: 300px;
+    height: 40px;
     color: white;
-    margin-top: 15px;
     font-size: 1rem;
     background-color: #B0AEAE;
     border-radius: 16px;
-    padding: 12px;
     border: none;
-    margin-bottom: 20px;
     cursor: pointer;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     text-shadow: 0 0 5px rgba(0, 0, 0, 1);
-    margin-bottom: 200px;
-    margin-left: 25%;
+    margin-left: 400px;
+    margin-bottom: 30px;
     border: 2px solid white;
 }
 
@@ -162,3 +173,107 @@ button.details:hover {
     background-color: #636363;
     transition: 0.3s ease;
 }
+
+.frente{
+    height: 350px;
+    width: 240px;
+    background-color: #dfb719;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;   
+}
+
+.verso{
+    height: 350px;
+    width: 240px;
+    background-color: #dfb719;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;  
+
+    black{
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+}
+
+cracha{
+    display: flex;
+    gap: 80px;
+}
+
+fundo{
+    background-color: #032D76;
+    height: 60px;
+    border-radius: 0 0 16px 16px;
+    margin-top: 15px;
+    padding: 5px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+cracha h2{
+    text-shadow:2px 2px 4px rgba(0,0,0,.4);
+}
+
+black{
+    height: 10px;
+    margin-top: 10px;
+    width: 60px;
+    background-color: black;
+    border-radius: 15px;
+    box-shadow:
+    0 4px 6px rgba(0,0,0,.55),
+    0  1px 0 rgba(255,255,255,.25) inset;
+}
+
+.setor{
+background-color: white;
+border: 2px solid #032D76;
+height: 40px;
+width: 200px;
+border-radius: 16px;
+margin-top: 15px;
+color: black;
+font-weight: bold;
+font-size: 14px;
+display: flex;
+flex-direction: column;
+text-align: center;
+align-items: center;
+justify-content: center;
+margin-bottom: 40px;
+p{
+    font-size: 9px;
+}
+}
+
+.matricula{
+background-color: white;
+color: black;
+border: 2px solid #032D76;
+height: 40px;
+width: 200px;
+border-radius: 16px;
+margin-top: 15px;
+font-weight: bold;
+font-size: 14px;
+display: flex;
+flex-direction: column;
+text-align: center;
+align-items: center;
+justify-content: center;
+p{
+    font-size: 9px;
+}
+
+}
+

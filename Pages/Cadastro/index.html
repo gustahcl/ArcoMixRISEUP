@@ -27,8 +27,10 @@
         <div class="formBox">
 
             <div class="avatar-container">
-                <img name="avatar" src="../../Assets/avatar.jpeg" alt="">
-                <a target="avatar" href="">Alterar foto</a>
+                <div class="avatar">
+                    <img class="avatar" src="../../Assets/avatar.jpg" alt="">
+                </div>
+                <a href="">Insira uma foto</a>
             </div>
 
             <form action="">
@@ -41,8 +43,14 @@
                     </div>
 
                     <div>
-                        <span>Teelfone</span>
-                        <input type="text" placeholder="" required>
+                        <span>Tipo de visitante:</span>
+                        <select name="tipo" id="tipo" required>
+                            <option value="" disabled selected>Selecionar</option>
+                            <option value="comercial">Representante Comercial</option>
+                            <option value="fornecedor">Fornecedor</option>
+                            <option value="manutencao">Manutenção</option>
+                            <option value="treinamento">Equipe de Treinamento</option>
+                        </select>
                     </div>
 
                     <div>
@@ -51,13 +59,23 @@
                     </div>
 
                     <div>
-                        <span>Senha:</span>
+                        <span>Telefone:</span>
+                        <input type=tel" placeholder="" required>
+                    </div>
+
+                    <div>
+                        <span>Empresa:</span>
                         <input type="text" placeholder="" required>
                     </div>
 
                     <div>
-                        <span>Emrpesa:</span>
-                        <input type="text" placeholder="" required>
+                        <span>Senha:</span>
+                        <input required></input>
+                    </div>
+
+                    <div>
+                        <span>E-mail:</span>
+                        <input required></input>
                     </div>
 
                     <div>
@@ -68,7 +86,7 @@
                 </div>
 
                 <div class="button-container">
-                    <button type="submit">SALVAR</button>
+                    <button type="submit">Enviar token de confirmação</button>
                 </div>
 
             </form>

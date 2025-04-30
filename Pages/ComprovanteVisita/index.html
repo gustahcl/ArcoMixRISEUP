@@ -8,7 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <title>Visitas Marcadas</title>
+    <script defer src="script.js"></script>
+    <title>Comprovante Visita</title>
 </head>
 
 <body>
@@ -45,25 +46,33 @@
         <button class="logout">Sair</button>
     </div>
     <div class="box">
-        <h1>Visitas Marcadas</h1>
-        <div class="content">
-            <div class="avatar">
-                <img src="../../Assets/avatar.jpeg" alt="Avatar">
-            </div>
-            <div class="div">
-                <div class="info">
-                    <h2>Empresa: Movi Torque</h2>
-                    <p>Dia 06/05/2025 - 08:45</p>
-                </div>
-                <button class="details">
-                    Detalhes da visita
-                </button>
-            </div>
+        <h1>Comprovante de Visita</h1>
+         
+        <centro>
+                <!-- <img src="../../Assets/avatar.jpeg"  style="width:250px;height:160px;border-radius:50%;" alt="Gabriel Marcos"> -->
+                    
+        <div class="avatar">
+            <img src="../../Assets/avatar.jpeg" alt="Avatar">
         </div>
-
-
+        
+         <div>
+         <p>Nome: Gabriel Marcos da Silva</p>      
+         <p>CPF: 000.000.000-00</p>
+         <p>Funcionário a Visitar: Paulo Souza Andrade</p>
+         <p>Empresa Responsável: Movi Torque</p>
+         <span
+         class= "status-aprovado">Status da Visita: <apr>Aprovado!</apr> 
+     </span> 
+        </div>
+        </centro>
+       
+         </span>
+        
+        <div class="content">
+                    <button class="submit" type="submit">Baixar Comprovante</button>
+                    <button class="submit" type="submit">Voltar a Pagina inicial</button>                    
+        </div>
     </div>
-
 </body>
 
-</html>
+</html> 

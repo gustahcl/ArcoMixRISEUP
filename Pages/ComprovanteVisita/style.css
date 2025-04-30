@@ -3,7 +3,7 @@
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;     
 }
 
 body {
@@ -82,6 +82,9 @@ button.logout {
 }
 
 div.box {
+    height: 600px;
+    padding-left: 50px;
+    padding-right: 50px;
     width: 60%;
     background-color: rgba(27, 61, 121, 0.7);
     margin-left: 20%;
@@ -91,7 +94,7 @@ div.box {
 
 div.box h1 {
     text-align: center;
-    padding: 40px;
+    padding-top: 80px;
     color: white;
     font-size: 3rem;
     font-weight: bold;
@@ -102,6 +105,8 @@ div.content {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 40px;
+    margin-right: 120px;
 }
 
 div.mini-header {
@@ -148,45 +153,6 @@ div.mini-header a {
     padding: 3px;
 }
 
-div.calendar {
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    background-color: #032D76;
-    margin: 20px 15px 100px 50px;
-    padding: 20px;
-}
-
-div.days {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-}
-
-div.day {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    color: white;
-    font-size: 1rem;
-}
-
-div.day p {
-    text-align: left;
-    font-size: 1rem;
-    font-weight: bold;
-}
-
 button.available {
     color: white;
     padding: 20px;
@@ -203,7 +169,7 @@ button.available:hover {
 button.unavailable {
     color: white;
     padding: 20px;
-    background-color: rgba(145, 165, 205, 0.8);
+    background-color: #2B5CBE;
     border: none;
 }
 
@@ -282,4 +248,34 @@ button.submit {
 button.submit:hover {
     background-color: #636363;
     transition: 0.3s ease;
+}
+
+.status-aprovado {
+    font-weight: bold;
+    font-size: 16px;
+}
+apr {
+    color: green;
+}
+
+centro{
+    display: flex;
+    align-items: center;
+    height: 300px;
+    justify-content: center;
+}
+
+centro div{
+gap:10px;   
+display: flex;
+flex-direction: column;
+}
+
+div.avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-right: 20px;
 }

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Segurança e Privacidade</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<html>
+
+  <aside class="sidebar">
+    <div class="logo">
+      <img src="../../Assets/arcomixLogo.svg" alt="Arco-Mix">
+      <p>Boa tarde, Gabriel</p>
+    </div>
+    <nav>
+      <ul>
+        <li>Dados Pessoais</li>
+        <li>Visitas</li>
+        <li>Comprovante De Visita</li>
+        <li>Notificações</li>
+        <li>Emissão de Identificação</li>
+        <li>Segurança e Privacidade</li>
+        <li class="active">Fale Conosco</li>
+      </ul>
+    </nav>
+    <div class="logout">
+      <p>Sair</p>
+    </div>
+  </aside>
+
+  <main class="contact-main">
+    <div class="form-container">
+      <h1>Fale Conosco</h1>
+      <p>Tem alguma dúvida, sugestão ou precisa de ajuda? Preencha o formulário abaixo e entraremos em contato.</p>
+      <form>
+        <label for="name">Nome completo:</label>
+        <input type="text" id="name" name="name">
+  
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email">
+  
+        <label for="subject">Assunto:</label>
+        <input type="text" id="subject" name="subject">
+  
+        <label>Categoria:</label>
+        <div class="category-buttons">
+          <button type="button">Suporte Técnico</button>
+          <button type="button">Dúvida</button>
+          <button type="button">Outro</button>
+          <button type="button">Sugestão</button>
+        </div>
+  
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message"></textarea>
+  
+        <label for="file-upload" class="file-upload-label">
+          📎 Anexar arquivo (opcional)
+          <input type="file" id="file-upload" hidden>
+        </label>
+  
+        <a href="confirmacao.html" class="btn-voltar">Enviar mensagem</a>
+      </form>
+    </div>
+  </main>
+</html>
