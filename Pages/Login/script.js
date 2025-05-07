@@ -1,6 +1,4 @@
 document.addEventListener('DOMContentLoaded', function () {
-    console.log("Script carregado com sucesso!");
-
     document.getElementById('loginForm').addEventListener('submit', function (event) {
         event.preventDefault(); 
         
@@ -18,7 +16,6 @@ document.addEventListener('DOMContentLoaded', function () {
             return;
         }
 
-        console.log("Redirecionando para a página principal...");
         window.location.href = "../PaginaPrincipal/index.html";
     });
 });
