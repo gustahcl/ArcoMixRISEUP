@@ -29,7 +29,6 @@ document.addEventListener('DOMContentLoaded', function () {
             return;
         }
 
-        // Redireciona para a página de notificações
-        window.location.href = "../Notificacoes/index.html";
+        window.location.href = "../TelaConfirmacao/index.html";
     });
 });
