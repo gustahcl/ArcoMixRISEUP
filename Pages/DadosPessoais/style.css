@@ -20,6 +20,15 @@ body {
     margin: auto;
 }
 
+.pp{
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.pp:hover{
+    text-decoration: underline;
+}
+
 div.sidebar {
     color: white;
     width: 20%;
@@ -165,10 +174,16 @@ div.submit-button {
 }
 
 div.submit-button button {
-    background-color: #B0AEAE;
+    background-color: #1B3E7B;;
     color: white;
-    border: none;
+    border: 2px solid white;
     border-radius: 16px;
-    padding: 10px 50px;
+    padding: 15px 55px;
     box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+div.submit-button button:hover {
+    background-color: #32EB21; /* adição do verde assim que passamos o mouse no botão de confirmação */
+    transition: 0.3s ease;
 }

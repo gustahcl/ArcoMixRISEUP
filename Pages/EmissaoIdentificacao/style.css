@@ -5,7 +5,9 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
-
+h3{
+    font-size: 17px;
+}
 body {
     background-image: linear-gradient(to right, #000000a8 50%, transparent 100%), url(../../Assets/background_image.jpeg);
     background-size: 1920px 1080px;
@@ -41,9 +43,11 @@ div.logo {
 
 img {
     width: 100%;
-    height: 100%;
 }
-
+.logo0{
+    width: 100%;
+    height: 130%;
+}
 div.user-info {
     display: flex;
     padding-left: 10%;
@@ -53,6 +57,7 @@ div.user-info {
 
 div.icon {
     margin-right: 10px;
+    margin-left: 10px;
 }
 
 div.menu-item {
@@ -73,6 +78,7 @@ a {
     font-weight: bold;
     color: white;
     text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    padding: 10px 3px;
 }
 
 li {
@@ -151,7 +157,7 @@ button.details {
     height: 40px;
     color: white;
     font-size: 1rem;
-    background-color: #B0AEAE;
+    background-color: rgba(27, 61, 121, 0.7);
     border-radius: 16px;
     border: none;
     cursor: pointer;
@@ -163,13 +169,13 @@ button.details {
 }
 
 button.details:hover {
-    background-color: #636363;
+    background-color: #32EB21;
     transition: 0.3s ease;
 }
 
 .frente{
-    height: 350px;
-    width: 240px;
+    height: 450px;
+    width: 340px;
     background-color: #dfb719;
     border-radius: 16px;
     display: flex;
@@ -180,8 +186,8 @@ button.details:hover {
 }
 
 .verso{
-    height: 350px;
-    width: 240px;
+    height: 450px;
+    width: 340px;
     background-color: #dfb719;
     border-radius: 16px;
     display: flex;
@@ -202,9 +208,12 @@ cracha{
 }
 
 fundo{
-    background-color: #032D76;
+    background-color: #ffffff;
     height: 60px;
-    border-radius: 0 0 16px 16px;
+    color: black;
+    border-radius: 16px 16px;
+    border: 2px solid #032D76;
+    border-color: #032D76;
     margin-top: 15px;
     padding: 5px;
     display: flex;
