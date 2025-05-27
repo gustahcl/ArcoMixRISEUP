@@ -132,19 +132,11 @@ div.content {
 
 div.div {
     display: flex;
-    padding: 30px;
     flex-direction: row;
     justify-content: center;
     justify-items: center;
     gap: 100px;
-    margin-bottom: 50px;
-}
-
-div.div p {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: white;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    margin-bottom: 200px;
 }
 
 div.inner-box {
@@ -169,25 +161,4 @@ div.inner-box p {
     font-weight: bold;
     color: white;
     text-shadow: 0 0 10px rgba(0, 0, 0, 1);
-}
-
-button.home-button {
-    background-color: #032D76;
-    color: white;
-    border: none;
-    border-radius: 16px;
-    padding: 12px 30px;
-    font-size: 1.1rem;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
-    margin-top: 10px;
-    align-self: flex-end; 
-    margin-bottom: 100px;
-}
-
-button.home-button:hover {
-    background-color: #32EB21;
 }

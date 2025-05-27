@@ -12,24 +12,19 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
-
     <title>Arcomix</title>
 </head>
 
 <body>
     <div class="box">
-
-        <h1>BEM-VINDO</h1>
-
+        <h1>Bem-Vindo(a)</h1>
         <div class="formBox">
-            <form action="">
-
+            <form id="loginForm" action="">
                 <div class="input-container">
                     <span>E-mail</span>
-                    <input type="text" placeholder="" required>
-
+                    <input type="text" id="email" placeholder="" required>
                     <span>Senha</span>
-                    <input type="text" placeholder="" required>
+                    <input type="password" id="password" placeholder="" required>
                 </div>
 
                 <div class="radio-container">
@@ -49,11 +44,12 @@
 
                 <div class="link-container">
                     <p>É visitante e não tem conta? </p>
-                    <a href="../Cadastro/cadastro.html">Registre-se.</a>
+                    <a href="../Cadastro/index.html">Registre-se.</a>
                 </div>
             </form>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
