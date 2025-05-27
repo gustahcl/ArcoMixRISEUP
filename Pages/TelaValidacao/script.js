@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (form) {
         form.addEventListener('submit', function (e) {
             e.preventDefault(); // Impede o envio padrão
-            window.location.href = "../Login/index.html"; // Altere para o destino desejado
+            window.location.href = "../../index.html"; // Altere para o destino desejado
         });
     }
 });

@@ -16,6 +16,6 @@ document.addEventListener('DOMContentLoaded', function () {
             return;
         }
 
-        window.location.href = "../PaginaPrincipal/index.html";
+        window.location.href = "./Pages/PaginaPrincipal/index.html";
     });
 });

@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     addClickListener('.logout', function () {
         console.log("Usuário clicou em logout. Redirecionando para a página de login...");
-        window.location.href = "../Login/index.html";
+        window.location.href = "../../index.html";
     });
 });
 
