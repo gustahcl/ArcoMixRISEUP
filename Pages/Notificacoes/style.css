@@ -31,8 +31,6 @@ div.sidebar {
     z-index: 1;
     padding: 1.5%;
     border-radius: 0 48px 48px 0;
-    display: flex;
-    flex-direction: column;
 }
 
 div.logo {
@@ -41,7 +39,8 @@ div.logo {
     margin-bottom: 50px;
 }
 
-img.logo0 {
+img {
+    cursor: pointer;
     width: 100%;
     height: 100%;
 }
@@ -53,11 +52,6 @@ div.user-info {
     margin-bottom: 20px;
 }
 
-div.user-info p {
-    font-size: 1rem;
-    font-weight: bold;
-}
-
 div.icon {
     margin-right: 10px;
 }
@@ -66,7 +60,7 @@ div.menu-item {
     display: flex;
     padding: 20px 0;
     background: transparent;
-    border-bottom: 4px solid white;
+    border-bottom: 2px solid white;
 }
 
 div.menu-item:hover {
@@ -82,23 +76,36 @@ a {
     text-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
 
+.user-info p {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
 li {
     list-style-type: none;
 }
 
 button.logout {
-    margin-top: auto;
+    margin-top: 50%;
     background: transparent;
     border: none;
     color: white;
     font-size: 1.4rem;
     cursor: pointer;
+}
+
+div.logo {
     width: 100%;
-    text-align: left;
-    padding-left: 10%;
-    display: flex;
-    align-items: center;
-    gap: 10px;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+img.logo0 {
+    width: 100%;
+    height: 100%;
 }
 
 div.box {
