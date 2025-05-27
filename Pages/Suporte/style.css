@@ -88,6 +88,11 @@ li {
   list-style-type: none;
 }
 
+li:hover {
+    text-decoration: underline;
+    color: white;
+}
+
 button.logout {
   margin-top: 50%;
   background: transparent;

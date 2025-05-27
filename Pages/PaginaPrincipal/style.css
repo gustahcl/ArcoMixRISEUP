@@ -76,6 +76,11 @@ a {
     text-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
 
+li:hover {
+    text-decoration: underline;
+    color: white;
+}
+
 .user-info p {
     text-decoration: none;
     font-size: 1rem;

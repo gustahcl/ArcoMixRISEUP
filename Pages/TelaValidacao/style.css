@@ -188,6 +188,15 @@ a:hover {
     transition: 1s;
 }
 
+li {
+    list-style-type: none;
+}
+
+li:hover {
+    text-decoration: underline;
+    color: white;
+}
+
 .button-container {
     display: flex;
     justify-content: center;
