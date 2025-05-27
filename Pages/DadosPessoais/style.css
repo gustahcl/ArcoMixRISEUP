@@ -131,7 +131,13 @@ div.avatar-box {
     margin-bottom: 200px;
 }
 
-div.avatar-box a:hover{
+div.avatar-box .alterar-foto-link {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+div.avatar-box .alterar-foto-link:hover {
     text-decoration: underline;
     color: white;
 }
