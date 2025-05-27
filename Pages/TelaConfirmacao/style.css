@@ -1,75 +1,193 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', sans-serif;
-  }
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
 
-  body {
-    display: flex;
-    height: 100vh;
+body {
     background-image: linear-gradient(to right, #000000a8 50%, transparent 100%), url(../../Assets/background_image.jpeg);
     background-size: 1920px 1080px;
     background-position: center;
     background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+}
+
+div.sidebar {
     color: white;
-  }
+    width: 20%;
+    height: 100vh;
+    background-color: #1B3E7B;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding: 1.5%;
+    border-radius: 0 48px 48px 0;
+}
 
-  .container {
-    background-color: rgba(0, 30, 77, 0.8);
-    max-width: 700px;
-    margin: 80px auto;
-    padding: 40px;
-    border-radius: 20px;
-    text-align: center;
-  }
+div.logo {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 50px;
+}
 
-  .logo {
+img {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+div.user-info {
+    display: flex;
+    padding-left: 10%;
+    width: 50%;
     margin-bottom: 20px;
-  }
+}
 
-  .logo img {
-    width: 140px;
-  }
+div.icon {
+    margin-right: 10px;
+}
 
-  h1 {
-    font-size: 2.2rem;
-    margin-bottom: 20px;
-  }
+div.menu-item {
+    display: flex;
+    padding: 20px 0;
+    background: transparent;
+    border-bottom: 2px solid white;
+}
 
-  p {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    margin-bottom: 30px;
-  }
+div.menu-item:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transition: 0.3s ease;
+}
 
-  .btn-voltar {
-    padding: 10px 25px;
-    border: none;
-    background-color: #003885;
-    color: white;
-    border-radius: 20px;
+a {
+    text-decoration: none;
     font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.user-info p {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+li {
+    list-style-type: none;
+}
+
+button.logout {
+    margin-top: 50%;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+div.box {
+    width: 60%;
+    background-color: rgba(27, 61, 121, 0.7);;
+    margin-left: 20%;
+    color: white;
+    border-radius: 24px;
+    text-align: center;
+}
+
+div.box-logo {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 13%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+div.box h1 {
+    text-align: center;
+    padding: 70px;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+div.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.div {
+    display: flex;
+    padding: 30px;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    gap: 100px;
+    margin-bottom: 50px;
+}
+
+div.div p {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+div.inner-box {
+    padding: 25px;
+    height: 250px;
+    width: 250px;
+    border-radius: 24px;
+    background-color: rgba(255, 255, 255, 0.25);
+    border: 3px solid white;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+div.inner-box:hover {
+    background-color: rgba(0, 0, 0, 0.25);
+    transition: 0.3s ease;
+}
+
+div.inner-box p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+button.home-button {
+    background-color: #032D76;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    text-decoration: none;
-  }
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    margin-top: 10px;
+    align-self: flex-end; 
+    margin-bottom: 100px;
+}
 
-  .btn-voltar:hover {
-    background-color: #0053b3;
-  }
-
-  @media (max-width: 768px) {
-    .container {
-      margin: 30px 20px;
-      padding: 25px;
-    }
-
-    h1 {
-      font-size: 1.8rem;
-    }
-
-    p {
-      font-size: 1rem;
-    }
-  }
+button.home-button:hover {
+    background-color: #32EB21;
+}
