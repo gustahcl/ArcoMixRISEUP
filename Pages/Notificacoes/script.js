@@ -1,3 +1,3 @@
-document.querySelector('.back-button').addEventListener('click', () => {
-    window.location.href = "../Home/home.html"; 
+document.querySelector('.home-button').addEventListener('click', () => {
+    window.location.href = "../PaginaPrincipal/index.html"; 
 });
