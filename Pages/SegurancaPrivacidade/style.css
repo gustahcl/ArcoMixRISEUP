@@ -192,7 +192,7 @@ label.radio-group span {
     margin-right: 10px; /* Espaço entre o texto e o botão */
 }
 
-button.confirm {
+button.confirmar {
     background-color: #032D76;
     color: white;
     border: rgba(255, 255, 255, 0.60) 2px solid;
@@ -206,7 +206,7 @@ button.confirm {
     margin-top: 10px;
 }
 
-button.confirm:hover {
+button.confirmar:hover {
     background-color: #32EB21;
 }
 
