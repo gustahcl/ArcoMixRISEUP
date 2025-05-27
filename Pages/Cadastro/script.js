@@ -29,6 +29,6 @@ document.addEventListener('DOMContentLoaded', function () {
             return;
         }
 
-        window.location.href = "../TelaConfirmacao/index.html";
+        window.location.href = "../TelaValidacao/index.html";
     });
 });

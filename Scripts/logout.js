@@ -34,7 +34,6 @@ addClickListener('.confirm', () => {
     window.location.href = "../TelaConfirmacao/index.html";
 });
 
-
 document.addEventListener('DOMContentLoaded', function () {
     // ...existing code...
 
