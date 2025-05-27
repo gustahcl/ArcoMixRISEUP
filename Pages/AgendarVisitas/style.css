@@ -278,7 +278,7 @@ div.form-box input {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-button.submit {
+button.marcar-submit {
     justify-self: center;
     color: white;
     margin-top: 15px;
@@ -295,7 +295,7 @@ button.submit {
     text-shadow: 0 0 5px rgba(0, 0, 0, 1);
 }
 
-button.submit:hover {
+button.marcar-submit:hover {
     background-color: #32EB21; /* adição do verde assim que passamos o mouse no botão de confirmação */
     transition: 0.3s ease;
 }

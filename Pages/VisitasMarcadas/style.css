@@ -171,7 +171,7 @@ div.inner-box p {
     text-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
 
-button.home-button {
+button.visitas-button {
     background-color: #032D76;
     color: white;
     border: none;
@@ -188,6 +188,6 @@ button.home-button {
     margin-bottom: 100px;
 }
 
-button.home-button:hover {
+button.visitas-button:hover {
     background-color: #32EB21;
 }
