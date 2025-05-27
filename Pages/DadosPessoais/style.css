@@ -131,6 +131,11 @@ div.avatar-box {
     margin-bottom: 200px;
 }
 
+div.avatar-box a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
 div.avatar {
     max-width: 200px;
     max-height: 200px;
@@ -152,10 +157,6 @@ div.form-group {
 div.div {
     text-align: start;
     padding: 10px;
-}
-
-div.div p {
-    margin-left: 10px;
 }
 
 div.div input {
