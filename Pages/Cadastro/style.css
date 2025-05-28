@@ -175,7 +175,7 @@ a {
 }
 
 a:hover {
-    text-decoration: underline red;
+    text-decoration: underline white;
     transition: 1s;
 }
 
