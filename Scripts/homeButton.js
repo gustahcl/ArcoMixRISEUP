@@ -8,3 +8,7 @@ function addClickListener(selector, callback) {
 addClickListener('.home-button', () => {
     window.location.href = "../PaginaPrincipal/index.html";
 });
+
+addClickListener('.logo', () => {
+    window.location.href = "../PaginaPrincipal/index.html";
+});
