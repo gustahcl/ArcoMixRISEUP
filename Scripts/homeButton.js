@@ -9,6 +9,10 @@ addClickListener('.home-button', () => {
     window.location.href = "../PaginaPrincipal/index.html";
 });
 
+addClickListener('.home-button-func', () => {
+    window.location.href = "../PaginaPrincipalFunc/index.html";
+});
+
 addClickListener('.logo', () => {
     window.location.href = "../PaginaPrincipal/index.html";
 });
