@@ -12,3 +12,7 @@ addClickListener('.home-button', () => {
 addClickListener('.logo', () => {
     window.location.href = "../PaginaPrincipal/index.html";
 });
+
+addClickListener('.logoFunc', () => {
+    window.location.href = "../PaginaPrincipalFunc/index.html";
+});
