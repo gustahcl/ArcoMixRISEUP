@@ -48,7 +48,7 @@ img {
 div.user-info {
     display: flex;
     padding-left: 10%;
-    width: 50%;
+    width: 60%;
     margin-bottom: 20px;
 }
 
@@ -94,7 +94,7 @@ li:hover {
 }
 
 button.logout {
-    margin-top: 50%;
+    margin-top: 93%;
     background: transparent;
     border: none;
     color: white;
@@ -104,7 +104,8 @@ button.logout {
 
 div.box {
     width: 60%;
-    background-color: rgba(27, 61, 121, 0.7);;
+    background-color: rgba(27, 61, 121, 0.7);
+    ;
     margin-left: 20%;
     color: white;
     border-radius: 24px;
@@ -186,7 +187,8 @@ div.submit-button {
 }
 
 div.submit-button button {
-    background-color: #1B3E7B;;
+    background-color: #1B3E7B;
+    ;
     color: white;
     border: 2px solid white;
     border-radius: 16px;
@@ -196,6 +198,7 @@ div.submit-button button {
 }
 
 div.submit-button button:hover {
-    background-color: #32EB21; /* adição do verde assim que passamos o mouse no botão de confirmação */
+    background-color: #32EB21;
+    /* adição do verde assim que passamos o mouse no botão de confirmação */
     transition: 0.3s ease;
 }
