@@ -41,19 +41,18 @@ O sistema desenvolvido oferece:
 
 ## 🚀 Tecnologias Utilizadas
 
-- **Frontend:** HTML5, CSS3, JavaScript  
-- **Backend:** (caso use, detalhe aqui)  
-- **Banco de Dados:** (informe o banco utilizado)  
-- **Ferramentas:** Figma (protótipos e design)  
+- **Frontend:** HTML5, CSS3, JavaScript   
+- **Ferramentas:** Figma (protótipos e design)
+- **Gestão De Projetos:** Trello, Miro e Template FIGMA
 
 ---
 
 ## 👥 Autores
 
-- Bianca Guimarães - Desenvolvimento Frontend & Gerenciamento do Projeto  
-- [Cayo Luiz] - Design UI/UX  
-- [Victor Torres] - Design UI/UX  
-- [Bianca Guimarães] - Gestão de projetos, Testes & Documentação  
+- Bianca Guimarães -Gerenciamento do Projeto, Documentação & teste 
+- Cayo Luiz - Design UI/UX  
+- Victor Torres - Design UI/UX  
+
 
 ---
 
