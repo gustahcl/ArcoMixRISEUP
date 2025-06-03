@@ -1,12 +1,5 @@
 # Arcomix - Sistema de Controle de Acesso de Visitantes
 
----
-
-## Menu  
-[Sobre](#sobre) | [Problemas](#problemas) | [Solução](#solução) | [Funcionalidades](#funcionalidades) | [Tecnologias Utilizadas](#tecnologias-utilizadas) | [Autores](#autores)
-
----
-
 ## 💡 Sobre
 
 Arcomix é uma rede de supermercados pernambucana que enfrenta desafios no controle de acesso de visitantes, como fornecedores, técnicos e vendedores.  
