@@ -49,9 +49,13 @@ O sistema desenvolvido oferece:
 
 ## 👥 Autores
 
-- Bianca Guimarães -Gerenciamento do Projeto, Documentação & teste 
-- Cayo Luiz - Design UI/UX  
-- Victor Torres - Design UI/UX  
+- Bianca Guimarães - Gestão de Projetos, Documentação & teste coding
+- Andrew Kauê - Gestão de Projetos & Coding
+- Cayo Luiz - Design UI/UX
+- Victor Torres - Design UI/UX
+- Eloisa Andrade - Design UI/UX
+- Luiz Miguel - Coding
+- João Gabriel - Coding
 
 
 ---
@@ -70,6 +74,7 @@ O sistema desenvolvido oferece:
 
 Para dúvidas ou sugestões, entre em contato:  
 **Email:** biancagsccabral@gmail.com 
+<br>
 **LinkedIn:** [linkedin.com/in/biancag](https://www.linkedin.com/in/bianca-guimar%C3%A3essacabral/)  
 
 ---
