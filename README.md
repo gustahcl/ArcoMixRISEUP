@@ -49,7 +49,6 @@ O sistema desenvolvido oferece:
 
 ## 👥 Autores
 
-- Bianca Guimarães - Gestão de Projetos, Documentação & teste coding
 - Andrew Kauê - Gestão de Projetos & Coding
 - Cayo Luiz - Design UI/UX
 - Victor Torres - Design UI/UX
