@@ -74,9 +74,9 @@ O sistema desenvolvido oferece:
 ## 📞 Contato
 
 Para dúvidas ou sugestões, entre em contato:  
-**Email:** biancagsccabral@gmail.com 
+**Email:** guustavo.hennrique.c.l12@gmail.com 
 <br>
-**LinkedIn:** [linkedin.com/in/biancag](https://www.linkedin.com/in/bianca-guimar%C3%A3essacabral/)  
+**LinkedIn:** [linkedin.com/in/gustavohcl](https://www.linkedin.com/in/gustavo-henrique-a8279a236/)  
 
 ---
 
