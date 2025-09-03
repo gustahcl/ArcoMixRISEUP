@@ -54,6 +54,7 @@ O sistema desenvolvido oferece:
 - Cayo Luiz - Design UI/UX
 - Victor Torres - Design UI/UX
 - Eloisa Andrade - Design UI/UX
+- Gustavo Henrique - Design UI/UX
 - Luiz Miguel - Coding
 - João Gabriel - Coding
 
